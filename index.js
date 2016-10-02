@@ -1,8 +1,8 @@
 const GetMidnightDate = require('get-midnight-date');
 
-function GetNextDate(date) {
+function GetNextDate(dateObj) {
 
-	let nextDate = GetMidnightDate(date);
+	let nextDate = GetMidnightDate(dateObj);
 
 	nextDate.setDate(nextDate.getDate() + 1);
 
