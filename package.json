@@ -1,11 +1,26 @@
 {
   "name": "get-next-date",
   "version": "1.0.0",
-  "description": "Takes Date and returns Date for next calendar date at midnight.",
+  "description": "Takes a Date object and returns a Date object representing the next calendar day, set to midnight local time.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Ross Barnes <r@rossb.biz>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "dependencies": {
+    "get-midnight-date": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossb/get-next-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rossb/get-next-date/issues"
+  },
+  "homepage": "https://github.com/rossb/get-next-date#readme"
 }

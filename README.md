@@ -1,6 +1,6 @@
 # get-next-date
 
-Takes a valid Date object and returns a Date object representing the next calendar day, set to midnight local time.
+Takes a Date object and returns a Date object representing the next calendar day, set to midnight local time.
 
 ## Install
 
